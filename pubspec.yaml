@@ -1,0 +1,42 @@
+name: placementt
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Official packages
+  cupertino_icons:
+  http: ^1.6.0
+  get:
+  pinput:
+  lottie:
+  url_launcher:
+  flutter_screenutil:
+  flutter_svg: ^2.2.0
+  connectivity_plus: ^7.0.0
+  provider: ^6.1.5+1
+  audioplayers: ^6.5.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints:
+
+flutter:
+  uses-material-design: true
+
+#  assets:
+#    - assets/svg/
+#    - assets/svg/category/
+#    - assets/png/
+#    - assets/animation/Handshake Loop.json
+#    - assets/animation/Loading animation.json
+#    - assets/animation/Placement Assistance.json
+#    - assets/animation/Welcome Animation.json
